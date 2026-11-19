@@ -1,0 +1,18 @@
+name: breakpoint_builder_example
+description: Demo app for the breakpoint_builder package.
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  breakpoint_builder:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
